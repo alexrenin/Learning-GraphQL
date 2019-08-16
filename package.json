@@ -4,7 +4,8 @@
   "description": "GraphQL / React / Material-UI / mLab / Apollo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "nodemon server/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/SanyaRenin/Learning-GraphQL/issues"
   },
-  "homepage": "https://github.com/SanyaRenin/Learning-GraphQL#readme"
+  "homepage": "https://github.com/SanyaRenin/Learning-GraphQL#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "mongoose": "^5.6.9",
+    "nodemon": "^1.19.1"
+  }
 }
