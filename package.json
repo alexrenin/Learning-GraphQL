@@ -1,0 +1,22 @@
+{
+  "name": "learning-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL / React / Material-UI / mLab / Apollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanyaRenin/Learning-GraphQL.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "alex renin (alexrenin.info)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanyaRenin/Learning-GraphQL/issues"
+  },
+  "homepage": "https://github.com/SanyaRenin/Learning-GraphQL#readme"
+}
