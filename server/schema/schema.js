@@ -79,7 +79,7 @@ const Mutation = new GraphQLObjectType({
 				name: {type: new GraphQLNonNull(GraphQLString)},
 				genre: {type: new GraphQLNonNull(GraphQLString)},
 				directorId: {type: GraphQLID},
-                watched: { type: new GraphQLNonNull(GraphQLString)},
+                watched: { type: new GraphQLNonNull(GraphQLBoolean)},
                 rate: { type: GraphQLInt},
 			},
 			resolve(parent, args) {
@@ -128,7 +128,7 @@ const Mutation = new GraphQLObjectType({
 				id: {type: GraphQLID},
 				name: {type: new GraphQLNonNull(GraphQLString)},
 				genre: {type: new GraphQLNonNull(GraphQLString)},
-                watched: { type: new GraphQLNonNull(GraphQLString)},
+                watched: { type: new GraphQLNonNull(GraphQLBoolean)},
                 rate: { type: GraphQLInt},
 				directorId: {type: GraphQLID},
 			},
